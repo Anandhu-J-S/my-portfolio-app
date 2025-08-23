@@ -1,0 +1,11 @@
+.navbar-bg-clr{
+      background:linear-gradient(135deg,#6a11cb 0%, #2575fc 100%);
+
+}
+.navbar-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+   border-bottom: none;
+}

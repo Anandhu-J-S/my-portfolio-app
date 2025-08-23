@@ -1,0 +1,10 @@
+.about-section{
+    position: relative;
+    bottom: 50px;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid beige;
+}

@@ -1,0 +1,72 @@
+.gmail-container {
+  width: 600px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.gmail-form {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.gmail-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.gmail-field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gmail-field label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.gmail-field input,
+.gmail-field textarea {
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.gmail-field input[disabled] {
+  background-color: #f3f3f3;
+  color: #666;
+}
+
+.gmail-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.gmail-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gmail-footer button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.gmail-footer button:hover {
+  background-color: #0c5fe1;
+}

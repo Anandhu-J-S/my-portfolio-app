@@ -16,7 +16,7 @@ function Hero() {
                         <div>
                             <p className="text-light">Email : anandhujs1920@gmail.com</p>
 
-                            <p className="text-light">Github : <a className="text-decoration-none text-light" href="https://github.com/Anandhu-J-S">github profile</a></p>
+                            <p className="text-light">Github : <a className="text-decoration-none text-light"   target="_blank" href="https://github.com/Anandhu-J-S">github profile</a></p>
                         </div>
                     </div>
                 </div>

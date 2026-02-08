@@ -8,12 +8,12 @@ import "../Skills/Skills.css"
 function Skills() {
 
     const skills = [
-        { name: "React", level: 88, img:  react  },
-        { name: "Java", level: 85, img:  java  },
-        { name: "Node.js", level: 80, img:  node  },
-        { name: "Spring Boot", level: 80, img:  springboot  },
-        { name: "MySQL", level: 75, img:  mysql  },
-        { name: "MongoDB", level: 70, img:  mongodb  }
+        { name: "React", img:  react  },
+        { name: "Java",  img:  java  },
+        { name: "Node.js", img:  node  },
+        { name: "Spring Boot",  img:  springboot  },
+        { name: "MySQL",  img:  mysql  },
+        { name: "MongoDB",  img:  mongodb  }
     ]
 
 
@@ -31,7 +31,7 @@ function Skills() {
                                         <img className="img-size me-3" src={skill.img} alt="undefined img" />
                                         <h5 className="card-title mt-3">{skill.name}</h5>
                                     </div>
-                                    <p className="text-center mt-3">{`${skill.level}%`}</p>
+                                  
                                 </div>
                             </div>
                         </div>
